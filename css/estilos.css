@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: #666;
+}
+
+
+/***HEADER
+************************************/
+.header {
+    height: 90vh;
+    position: relative;
+    width: 100%;
+    background-image: url(../img/home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F6F5;
+}
+
+.nav__div--logo {
+    height: 40px;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-zentro {
+    text-transform: uppercase;
+    color: #444;
+    font-weight: 800;
+}
+
+.menu-icon {
+    position: absolute;
+    font-size: 1.5625rem;
+    right: 4%;
+    top: 1.4%;
+    cursor: pointer;
+    color: #666;
+}
+
+.nav__div--navbar {
+    display: none;
+    flex-direction: column;
+    border-top: 1px solid rgb(211, 211, 211);
+    display: none;
+}
+
+.visible {
+    display: flex;
+}
+
+.a--navbar {
+    text-transform: uppercase;
+    font-size: 0.6875rem;
+    letter-spacing: 1.5px;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1rem;
+    margin-bottom: 5%;
+}
+
+.h2 {
+    text-transform: uppercase;
+
+}
+
+.h1--header,
+.h2--header {
+    text-align: center;
+    color: #F6F6F5;
+}
+
+.contenedor--header {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30vh;
+    left: 20%;
+}
+
+.btn--header {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 0.715rem;
+    font-weight: 800;
+    margin-top: 10%;
+    border: 3px solid #F6F6F5;
+    color: #F6F6F5;
+    padding: 12px 30px;
+    letter-spacing: 1px;
+}
+
+
+
+
+/*************************/
+.contenedor--div-img {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
