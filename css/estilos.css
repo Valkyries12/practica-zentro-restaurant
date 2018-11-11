@@ -153,7 +153,11 @@ img {
 .div--food-gallery {
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
+}
+
+.div--food-gallery:last-child {
+    margin-bottom: 6.25rem;
 }
 
 .contenedor--div-img {
@@ -174,4 +178,27 @@ img {
     text-transform: capitalize;
     font-size: 0.875rem;
     color: rgb(83, 83, 83);
+}
+
+/***SECTION-MENU
+************************************/
+.section--menu {
+    background-color: #F0F0F0;
+}
+
+.div--contenedor-menu {
+    width: 90%;
+}
+
+.div--menu-primero,
+.div--menu-segundo {
+    width: 100%;
+}
+
+.div--menu--food {
+    margin-bottom: 3.125rem;
+}
+
+.div--menu-segundo .div--menu--food:last-child {
+    margin-bottom: 6.25rem;
 }
