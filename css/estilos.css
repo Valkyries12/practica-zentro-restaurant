@@ -202,3 +202,45 @@ img {
 .div--menu-segundo .div--menu--food:last-child {
     margin-bottom: 6.25rem;
 }
+
+/***SECTION-CHEFS
+************************************/
+.div--contenedor-chefs {
+    width: 90%;
+}
+
+.contenedor--div-img-chef {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.875rem;
+}
+
+.contenedor--div-img-chef:last-child {
+    margin-bottom: 100px;
+}
+
+.p--nombre {
+    text-transform: capitalize;
+    color: #666;
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.125rem;
+}
+
+.p--profesion {
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: .5px;
+    font-size: 1.125rem;
+    margin-bottom: 0.625rem;
+    color: #323232;
+}
+
+/***SECTION-CONTACT US
+************************************/
+.section--form {
+    background-color: #F0F0F0;
+}
