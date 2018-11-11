@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <nav class="nav">
             <div class="nav__div--logo">
                 
@@ -20,11 +20,11 @@
                 
             </div><!--div logo-->
             <div class="nav__div--navbar">
-                <a href="#" class="a a--navbar">home</a>
-                <a href="#" class="a a--navbar">food gallery</a>
-                <a href="#" class="a a--navbar">special menu</a>
-                <a href="#" class="a a--navbar">chefs</a>
-                <a href="#" class="a a--navbar">contact</a>
+                <a href="#home" class="a a--navbar">home</a>
+                <a href="#food-gallery" class="a a--navbar">food gallery</a>
+                <a href="#special-menu" class="a a--navbar">special menu</a>
+                <a href="#chefs" class="a a--navbar">chefs</a>
+                <a href="#contact" class="a a--navbar">contact</a>
             </div><!--nav__div  navbar-->
             <ion-icon class="menu-icon" name="menu"></ion-icon>
         </nav><!--nav-->
@@ -35,7 +35,7 @@
         </div><!--contenedor header-->
         
     </header><!--header-->
-    <section class="section section--food-gallery">
+    <section class="section section--food-gallery" id="food-gallery">
         <h3 class="h3">food gallery</h3>
         <div class="div--contenedor-food-gallery">
             <div class="div--food-gallery">
@@ -85,7 +85,7 @@
             </div><!--div food gallery-->
         </div><!--div contenedor food gallery-->
     </section><!--section food gallery-->
-    <section class="section section--menu">
+    <section class="section section--menu" id="special-menu">
         <h3 class="h3">special menu</h3>
         <div class="div--contenedor-menu">
             <div class="div--menu-primero">
@@ -126,7 +126,7 @@
                 </div><!--div menu  segundo-->
         </div><!--div contenedor  menu-->
     </section><!--section  menu-->
-    <section class="section section--chefs">
+    <section class="section section--chefs" id="chefs">
         <h3 class="h3">meet zentro chefs</h3>
         <div class="div--contenedor-chefs">
             <div class="contenedor--div-img-chef">
@@ -152,7 +152,7 @@
             </div><!--contenedor  div  img-->
         </div><!-- div contenedor chefs-->
     </section><!--section chefs-->
-    <section class="section section--form">
+    <section class="section section--form" id="contact">
         <h3 class="h3">contact us</h3>
         <div class="div--contenedor-form">
             <form action="" class="form">
@@ -198,6 +198,7 @@
         <p class="p p--footer">zentro</p>
         <p class="p p--copy">Copyright &copy; Zentro Restaurant and Cafe | Design: Tooplate</p>
     </footer>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.js"></script>
     <script src="https://unpkg.com/ionicons@4.3.0/dist/ionicons.js"></script>
     <script src="js/app.js"></script>
 </body>
