@@ -239,8 +239,60 @@ img {
     color: #323232;
 }
 
-/***SECTION-CONTACT US
+/***SECTION-FORM
 ************************************/
 .section--form {
     background-color: #F0F0F0;
 }
+
+.div--contenedor-form {
+    width: 90%;
+    display: flex;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+    margin-bottom: 20%;
+}
+
+.div--nommail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30%;
+}
+
+.input {
+    height: 45%;
+    color: #999999;
+    text-transform: capitalize;
+    font-size: 1rem;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+
+.textarea {
+    text-transform: capitalize;
+    color: #999999;
+    font-size: 1rem;
+    border: none;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btn--submit {
+    width: 100%;
+    border: 2px solid #999999;
+    height: 14%;
+    border-radius: 6px;
+    color: #999999;
+    letter-spacing: 1px;
+}
+
