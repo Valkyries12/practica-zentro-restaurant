@@ -5,6 +5,19 @@ MENU_ICON.addEventListener("click", function(){
     NAV_BAR.classList.toggle("visible");
 });
 
+//stycky nav
+const NAV = document.querySelector(".nav");
+window.addEventListener("scroll", function(){
+  let scrolltop = window.scrollY;
+  if(scrolltop > 400){
+    NAV.classList.add("sticky");
+
+  } else {
+    NAV.classList.remove("sticky");
+
+  }
+})
+
 //smooth scroll
 
 

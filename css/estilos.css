@@ -20,6 +20,8 @@ a:active {
     color: #666;
 }
 
+
+
 .section {
     width: 100%;
     display: flex;
@@ -294,5 +296,115 @@ img {
     border-radius: 6px;
     color: #999999;
     letter-spacing: 1px;
+}
+
+/***SECTION-CONTACT
+************************************/
+.section--contact {
+    background-image: url("../img/footer-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 55% 50%;
+}
+
+.div--contact {
+    width: 90%;
+    color: #F7F9F6;
+}
+
+
+
+.h3--contact {
+    color: #F7F9F6;
+    font-size: 1.125rem;
+    border-bottom: none;
+    margin-bottom: 5px;
+    letter-spacing: normal;
+    font-weight: bold;
+    margin-top: 15%;
+}
+
+.div--info {
+    color: #F7F9F6;
+    margin-bottom: 20px;
+    height: 20%;
+}
+
+.icon--phone,
+.icon--compass {
+    font-size: 0.75rem;
+    margin-right: 0.625rem;
+}
+
+.span--contact {
+    text-transform: capitalize;
+    font-size: 0.8125rem;
+    font-weight: bold;
+}
+
+.p--info {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.p--hours {
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 5%;
+    font-size: 0.8425rem;
+}
+
+.span--hours {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.div--info--social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a--social {
+    font-size: 14px;
+    background-color: #f7f9f6;
+    border-radius: 50%;
+    padding: 0.625rem 0.75rem;
+    margin-bottom: 20%;
+}
+
+/***FOOTER
+********************************/
+.footer {
+    width: 100%;
+    display: flex;
+    background-color: #343434;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p--footer {
+    color: #F7F9F6;
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 4%;
+    margin-top: 15%;
+    text-transform: uppercase;
+}
+
+.p--copy {
+    color: #F7F9F6;
+    margin-bottom: 4%;
+    font-size: 0.875rem;
+}
+
+.p--copy-2 {
+    color: #F7F9F6;
+    margin-bottom: 15%;
+    font-size: 0.875rem;
+}
+
+.sticky {
+    position: fixed;
 }
 
