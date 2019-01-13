@@ -408,3 +408,46 @@ img {
     position: fixed;
 }
 
+/*************************************************/
+/************TABLETS MEDIDAS***********************/
+/**************************************************/
+
+@media only screen and (min-width: 767px) {
+    .nav {
+        flex-direction: row;
+        height: 12%;
+        align-items: center;
+    }
+
+
+    .logo-zentro {
+        font-size: 1.425rem;
+        letter-spacing: 3px;
+    }
+
+    .nav__div--navbar {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        border-top-color: #fff;
+    }
+
+    .a--navbar {
+        margin: 0;
+        font-size: 0.8125rem;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .contenedor--header {
+        border: 1px solid red;
+    }
+
+    
+
+}
+
