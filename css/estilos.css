@@ -447,6 +447,33 @@ img {
         border: 1px solid red;
     }
 
+    .h1 {
+        font-size: 1.10rem;
+        letter-spacing: 7px;
+    }
+
+    .h2 {
+        font-size: 1.875rem;
+        letter-spacing: 1px;
+    }
+
+    .h1--header,
+    .h2--header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .h1--header span,
+    .h2--header span {
+        margin-left: 10px;
+    }
+
+    .btn--header {
+        font-size: 0.875rem;
+        padding: 16px 32px;
+    }
+    /***food gallery
+    ***********************************/
     
 
 }
