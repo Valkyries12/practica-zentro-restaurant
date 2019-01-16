@@ -443,9 +443,6 @@ img {
         display: none;
     }
 
-    .contenedor--header {
-        border: 1px solid red;
-    }
 
     .h1 {
         font-size: 1.10rem;
@@ -474,7 +471,85 @@ img {
     }
     /***food gallery
     ***********************************/
-    
+    .div--contenedor-food-gallery {
+        display: grid;
+    }
 
+    .a {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .b {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .c {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+
+    .d {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+
+    .e {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+
+    .c img {
+        height: 100%;
+    }
+    /*** SECTION MENU
+    **************************************/
+    .div--contenedor-menu {
+        display: grid;
+    }
+
+    .div--menu-primero {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .div--menu-segundo {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    /*** SECTION CHEF
+    ******************************************/
+    .div--contenedor-chefs {
+        display: grid;
+        grid-gap: 0 4%;
+    }
+
+    .contenedor--div-img-chef {
+        height: 80%;
+    }
+
+    .div__img {
+        height: 70%;
+    }
+
+    .div__img img {
+        height: 100%;
+    }
+
+    .chef-a {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .chef-b {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    .chef-c {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
 }
 
