@@ -531,7 +531,7 @@ img {
     }
 
     .div__img {
-        height: 70%;
+        height: 85%;
     }
 
     .div__img img {
@@ -633,4 +633,28 @@ img {
     }
 
 }
+/****************************************************/
+/****************DESKTOP MEDIDAS*********************/
+/****************************************************/
+@media only screen and (min-width: 990px){
+    .btn {
+        cursor: pointer;
+    }
+    /***section form
+    **************************************/
+    .form {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+    }
+    /***section contact
+    *************************************/
 
+    .div--contact {
+        width: 60%;
+    }
+    /***footer
+    *******************************************/
+
+}
